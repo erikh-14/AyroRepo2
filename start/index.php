@@ -124,7 +124,7 @@ function myFunction() {
         <a class="nav-link" onclick="window.location.href = 'http://147.182.180.7/info.php';">Current Employees <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shipper <span class="sr-only"></span></a>
+        <a class="nav-link" onclick="window.location.href = 'http://147.182.180.7/login.php';">Log In <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Driver</a>
@@ -153,6 +153,7 @@ function myFunction() {
 </nav> 
 
 <form class = "db-form" method="POST" action="index.php">
+
 <h3>New Employee Form</h3>
   <!-- First Name input -->
   <div class="mb-3">
